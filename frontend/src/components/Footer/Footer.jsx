@@ -10,15 +10,17 @@ const Footer = () => {
           <div className="footer-content-left">
             <img src={assets.logo} alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dicta eum numquam? Maxime beatae numquam ab ipsam, cumque natus
-              nulla corporis fugiat, animi, aut cum! Dolores libero odit culpa
-              eligendi!
+              This is Tomato Food Ordering Website created by MCA-Div-A Students
+              for the Subject E-commerce
             </p>
             <div className="footer-social-icon">
-              <img src={assets.facebook_icon} alt="" />
-              <img src={assets.twitter_icon} alt="" />
-              <img src={assets.linkedin_icon} alt="" />
+              <a href="https://facebook.com">
+                <img src={assets.facebook_icon} alt="" />
+              </a>
+              {/* <img src={assets.twitter_icon} alt="" /> */}
+              <a href="https://www.linkedin.com/school/sies-college-of-management-studies-india/">
+                <img src={assets.linkedin_icon} alt="" />
+              </a>
             </div>
           </div>
           <div className="footer-content-right">
@@ -33,14 +35,14 @@ const Footer = () => {
           <div className="footer-content-center">
             <h2>GET IN TOUCH</h2>
             <ul>
-              <li>+1-212-256-7890</li>
+              <li>+91-9876543210</li>
               <li>contact@tomato.com</li>
             </ul>
           </div>
         </div>
         <hr />
         <p className="footer-copyright">
-          Copyright 2024 © Tomato.com-All Right Reserved{" "}
+          Copyright 2025 © Tomato.com-All Right Reserved{" "}
         </p>
       </div>
     </div>

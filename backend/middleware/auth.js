@@ -4,7 +4,6 @@ const authMiddleware = async (req, res, next) => {
   if (!token) {
     return res.json({ success: false, message: "Not Authorized Login Again" });
   }
-  console.log(token);
 
   try {
     const token_decode = jwt.verify(token, process.env.SECRET_KEY);

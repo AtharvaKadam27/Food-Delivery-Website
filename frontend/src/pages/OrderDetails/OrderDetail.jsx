@@ -35,8 +35,8 @@ const OrderDetail = () => {
                 <div className="description">
                   <h2>{item.name}</h2>
                   <div className="price">
-                    <span>MRP:${item.price + 5}</span>
-                    <p>MRP:${item.price}</p>
+                    <span>${item.price + 5}</span>
+                    <p>${item.price}</p>
                   </div>
                   <p className="desc">{item.description}</p>
                   <div className="detail-counter">
